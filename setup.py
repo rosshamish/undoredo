@@ -1,18 +1,21 @@
 from distutils.core import setup
 
-import six
+import undoredo
 
-with open("README.md", "r") as fp:
+with open("README", "r") as fp:
     long_description = fp.read()
 
 setup(name="undoredo",
       version=undoredo.__version__,
       author="Ross Anderson",
       author_email="ross.anderson@ualberta.ca",
-      url="http://pypi.python.org/pypi/undoredo/",
-      py_modules=["undoredo"],
+      url="https://github.com/rosshamish/undoredo/",
+      download_url = 'https://github.com/rosshamish/undoredo/tarball/' + undoredo.__version__,
       description="undo/redo functionality for arbitrary python classes",
       long_description=long_description,
+      keywords=[],
+      classifiers=[],
       license="GPLv3",
-      classifiers=[]
+
+      py_modules=["undoredo"],
 	)
