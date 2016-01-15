@@ -7,6 +7,12 @@ Supports Python 3. Might work in Python 2.
 
 > Author: Ross Anderson ([rosshamish](https://github.com/rosshamish))
 
+### Installation
+
+```
+pip install undoredo
+```
+
 ### Usage 
 
 Any class can gain undo/redo functionality by doing the following:
