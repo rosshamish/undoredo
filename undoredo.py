@@ -6,7 +6,7 @@ See README.md for a detailed usage example.
 import logging
 
 __author__ = 'Ross Anderson <ross.anderson@ualberta.ca>'
-__version__ = '0.1.3'
+__version__ = '0.1.4'
 
 
 class UndoManager(object):
