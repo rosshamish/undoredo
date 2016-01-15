@@ -2,7 +2,7 @@ from distutils.core import setup
 
 import undoredo
 
-with open("README", "r") as fp:
+with open("README.md", "r") as fp:
     long_description = fp.read()
 
 setup(name="undoredo",
